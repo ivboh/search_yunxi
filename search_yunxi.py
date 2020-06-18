@@ -8,11 +8,6 @@ import numpy as np
 import io
 import datetime
 
-'''
-Scrape the jobs by states in addition to
-the jobs already scraped nationwide
-'''
-
 def scrape(logger_path):
   '''
   open webpage with given URL list.
