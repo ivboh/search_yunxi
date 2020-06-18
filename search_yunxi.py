@@ -25,7 +25,7 @@ def scrape(logger_path):
   logger = open(logger_path, 'a+')
   logger.write(str(datetime.datetime.now()))
   for URL in search_list:
-    time.sleep(np.random.randint(2,3))
+    time.sleep(np.random.randint(15,20))
     req = Request(URL)
     try:	
       webpage = urlopen(req)
